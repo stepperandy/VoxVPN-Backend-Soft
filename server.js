@@ -7,6 +7,16 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/download", (req, res) => {
+  const key = req.query.key;
+
+  if (key !== "voxdigits2026") {
+    return res.status(403).send("Access Denied");
+  }
+
+  res.redirect("https://voxvpn.net/downloads/VoxVPN-Setup.exe");
+});
+
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/download", (req, res) => {
