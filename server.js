@@ -21,16 +21,16 @@ const users = [
 ];
 
 const servers = [
-  { id: 1, name: "US Chicago" },
-  { id: 2, name: "US New York" },
-  { id: 3, name: "UK London" },
-  { id: 4, name: "Germany Frankfurt" },
-  { id: 5, name: "Netherlands Amsterdam" },
-  { id: 6, name: "Canada Toronto" },
-  { id: 7, name: "Singapore" },
-  { id: 8, name: "Australia Sydney" },
-  { id: 9, name: "South Africa Johannesburg" },
-  { id: 10, name: "Japan Tokyo" }
+  { id: "amsterdam", name: "Netherlands - Amsterdam" },
+  { id: "chicago", name: "USA - Chicago" },
+  { id: "london", name: "UK - London" },
+  { id: "losangeles", name: "USA - Los Angeles" },
+  { id: "newjersey", name: "USA - New Jersey" },
+  { id: "singapore", name: "Singapore" },
+  { id: "frankfurt", name: "Germany - Frankfurt" },
+  { id: "johannesburg", name: "South Africa - Johannesburg" },
+  { id: "siliconvalley", name: "USA - Silicon Valley" },
+  { id: "sydney", name: "Australia - Sydney" }
 ];
 
 const prices = {
